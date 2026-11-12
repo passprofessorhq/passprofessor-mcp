@@ -1,5 +1,7 @@
 # PassProfessor MCP Server
 
+<!-- mcp-name: io.github.passprofessorhq/passprofessor -->
+
 MCP server name: `io.github.passprofessorhq/passprofessor`
 
 A free, read-only [Model Context Protocol](https://modelcontextprotocol.io) server from

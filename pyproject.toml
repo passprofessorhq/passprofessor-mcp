@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "passprofessor-mcp"
-version = "1.0.0"
+version = "1.0.1"
 description = "PassProfessor MCP server: program catalog, verified exam facts, and free sample questions for AI assistants."
 readme = "README.md"
 requires-python = ">=3.10"
