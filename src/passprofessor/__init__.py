@@ -1,0 +1,1 @@
+"""PassProfessor MCP server package."""
