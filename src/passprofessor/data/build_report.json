@@ -1,0 +1,61 @@
+{
+ "products_total": 206,
+ "programs_with_page": 183,
+ "programs_with_facts": 59,
+ "programs_with_weights": 13,
+ "programs_with_practice_count": 174,
+ "programs_with_sample": 206,
+ "programs_with_sample_url": 206,
+ "sample_sets_total": 206,
+ "free_program_sample_sets": 0,
+ "free_program_keys": [],
+ "excluded_sample_quizzes": [
+  {
+   "quiz_post_id": 773776,
+   "program": "certified-meeting-professional",
+   "questions": 12,
+   "form": 12,
+   "reason": "program excluded (see EXCLUDED_SAMPLE_KEYS)"
+  },
+  {
+   "quiz_post_id": 404783,
+   "program": "dmv",
+   "questions": 297,
+   "form": 0,
+   "reason": "not a 12-question fixed sample set"
+  },
+  {
+   "quiz_post_id": 404483,
+   "program": "dmv",
+   "questions": 283,
+   "form": 0,
+   "reason": "not a 12-question fixed sample set"
+  },
+  {
+   "quiz_post_id": 404196,
+   "program": "dmv",
+   "questions": 290,
+   "form": 0,
+   "reason": "not a 12-question fixed sample set"
+  },
+  {
+   "quiz_post_id": 403901,
+   "program": "dmv",
+   "questions": 297,
+   "form": 0,
+   "reason": "not a 12-question fixed sample set"
+  },
+  {
+   "quiz_post_id": 403557,
+   "program": "dmv",
+   "questions": 299,
+   "form": 0,
+   "reason": "not a 12-question fixed sample set"
+  }
+ ],
+ "attach_methods": {
+  "program_meta": 78,
+  "course_core": 127,
+  "title_match": 1
+ }
+}
