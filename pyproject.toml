@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "passprofessor-mcp"
+version = "1.0.0"
+description = "PassProfessor MCP server: program catalog, verified exam facts, and free sample questions for AI assistants."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Proprietary" }
+authors = [{ name = "PassProfessor" }]
+keywords = ["mcp", "model-context-protocol", "exam-prep", "education"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Topic :: Education",
+]
+dependencies = ["mcp>=1.20,<2"]
+
+[project.urls]
+Homepage = "https://passprofessor.com"
+
+[project.scripts]
+passprofessor-mcp = "passprofessor.server:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.package-data]
+passprofessor = ["data/*.json"]
