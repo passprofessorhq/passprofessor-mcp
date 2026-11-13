@@ -4533,6 +4533,30 @@
    }
   },
   {
+   "slug": "sat",
+   "name": "SAT (Digital SAT) Exam Prep",
+   "description": "The largest Digital SAT question bank \u2014 50,000 original practice questions",
+   "family": "College Exam Prep",
+   "categories": [
+    "College Exam Prep"
+   ],
+   "price_usd": 49.0,
+   "product_url": "https://passprofessor.com/product/sat-practice-exams/",
+   "program_page_url": "https://passprofessor.com/college-admissions-exam-prep/sat-exam-prep/",
+   "access": "6 months of access from purchase",
+   "practice_question_count": 50000,
+   "exam_facts": null,
+   "topic_weights": null,
+   "sample_url": "https://passprofessor.com/courses/sat-practice-exams/lessons/sat-free-sample/quizzes/sat-sample-quiz/",
+   "sample_available": true,
+   "sample_question_count": 12,
+   "_source": {
+    "product_id": 780108,
+    "page_id": 780126,
+    "quiz_post_id": 780107
+   }
+  },
+  {
    "slug": "south-carolina-hvac",
    "name": "South Carolina HVAC Exam Prep",
    "family": "Trades Exam Prep",

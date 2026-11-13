@@ -72554,6 +72554,358 @@
     "built_at": "2026-10-30 18:41:15",
     "attach_method": "course_core"
    }
+  },
+  "sat": {
+   "program_slug": "sat",
+   "quiz_title": "SAT (Digital SAT) Exam Prep FREE Sample Exam \u2014 Fixed Set",
+   "question_count": 12,
+   "sample_url": "https://passprofessor.com/courses/sat-practice-exams/lessons/sat-free-sample/quizzes/sat-sample-quiz/",
+   "questions": [
+    {
+     "position": 1,
+     "question": "The function f(x) = 1x^2 - 10x + 24 has its vertex at (h, k). What is the value of h?",
+     "answer_type": "single",
+     "answers": [
+      {
+       "letter": "A",
+       "text": "5"
+      },
+      {
+       "letter": "B",
+       "text": "-1"
+      },
+      {
+       "letter": "C",
+       "text": "-10"
+      },
+      {
+       "letter": "D",
+       "text": "-5"
+      }
+     ],
+     "correct_answer": [
+      "A"
+     ],
+     "explanation": "For a quadratic in standard form, the vertex's x-coordinate is -b/(2a) = 10/(2) = 5. Using b/(2a) without the negative sign gives -5, the trap option."
+    },
+    {
+     "position": 2,
+     "question": "What is the distance between the points (-4, 2) and (1, 14) in the xy-plane?",
+     "answer_type": "single",
+     "answers": [
+      {
+       "letter": "A",
+       "text": "5"
+      },
+      {
+       "letter": "B",
+       "text": "13"
+      },
+      {
+       "letter": "C",
+       "text": "12"
+      },
+      {
+       "letter": "D",
+       "text": "17"
+      }
+     ],
+     "correct_answer": [
+      "B"
+     ],
+     "explanation": "The horizontal change is 5 and the vertical change is 12, so the distance is sqrt(25 + 144) = 13. Adding the changes directly gives 17, the trap value."
+    },
+    {
+     "position": 3,
+     "question": "A bike rental shop charges a flat pickup fee of $15 plus $3 per hour. If a customer's total charge was $36, for how many hours was the customer charged?",
+     "answer_type": "single",
+     "answers": [
+      {
+       "letter": "A",
+       "text": "21"
+      },
+      {
+       "letter": "B",
+       "text": "17"
+      },
+      {
+       "letter": "C",
+       "text": "12"
+      },
+      {
+       "letter": "D",
+       "text": "7"
+      }
+     ],
+     "correct_answer": [
+      "D"
+     ],
+     "explanation": "Subtract the one-time fee first: 36 - 15 = 21. Then divide by the rate of 3 per unit: (36 - 15) / 3 = 7. Dividing the whole total by the rate ignores the fee and overstates the answer."
+    },
+    {
+     "position": 4,
+     "question": "The graph of y = g(x) is the graph of y = f(x) shifted 3 units to the left and 6 units down. Which equation defines g?",
+     "answer_type": "single",
+     "answers": [
+      {
+       "letter": "A",
+       "text": "g(x) = f(x - 3) - 6"
+      },
+      {
+       "letter": "B",
+       "text": "g(x) = f(x + 6) - 3"
+      },
+      {
+       "letter": "C",
+       "text": "g(x) = f(x + 3) + 6"
+      },
+      {
+       "letter": "D",
+       "text": "g(x) = f(x + 3) - 6"
+      }
+     ],
+     "correct_answer": [
+      "D"
+     ],
+     "explanation": "A shift left by 3 replaces x with x + 3 inside the function, and a shift down by 6 subtracts 6 outside: g(x) = f(x + 3) - 6. The horizontal replacement moves opposite to the sign students expect, which is the trap in the other options."
+    },
+    {
+     "position": 5,
+     "question": "In a survey of 400 voters, 200 said they support a measure. If the survey is representative, about how many of the 5000 voters in the town would be expected to support the measure?",
+     "answer_type": "single",
+     "answers": [
+      {
+       "letter": "A",
+       "text": "2500"
+      },
+      {
+       "letter": "B",
+       "text": "3000"
+      },
+      {
+       "letter": "C",
+       "text": "200"
+      },
+      {
+       "letter": "D",
+       "text": "1250"
+      }
+     ],
+     "correct_answer": [
+      "A"
+     ],
+     "explanation": "The sample proportion is 200/400 = 0.5. Scaling to the town: 0.5 \u00d7 5000 = 2500 voters. Reporting the raw count 200 ignores the scaling to the full population."
+    },
+    {
+     "position": 6,
+     "question": "6x + 2y = 2\n2x + 1y = 3\n\nIf (x, y) is the solution to the system of equations above, what is the value of x + y?",
+     "answer_type": "single",
+     "answers": [
+      {
+       "letter": "A",
+       "text": "5"
+      },
+      {
+       "letter": "B",
+       "text": "-2"
+      },
+      {
+       "letter": "C",
+       "text": "7"
+      },
+      {
+       "letter": "D",
+       "text": "-5"
+      }
+     ],
+     "correct_answer": [
+      "A"
+     ],
+     "explanation": "The system solves to (-2, 7). Therefore x + y = 5. Stopping at one coordinate, such as -2, is the trap \u2014 the question asks for the combination x + y."
+    },
+    {
+     "position": 7,
+     "question": "The weather service issued a detailed forecast for the regatta on the bay. The starting time _____ depends on the morning fog, which usually lifts by nine when the sea breeze begins to build.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+     "answer_type": "single",
+     "answers": [
+      {
+       "letter": "A",
+       "text": "(originally set for eight o'clock)"
+      },
+      {
+       "letter": "B",
+       "text": "(originally set for eight o'clock),"
+      },
+      {
+       "letter": "C",
+       "text": "(originally set for eight o'clock) \u2014"
+      },
+      {
+       "letter": "D",
+       "text": "; originally set for eight o'clock;"
+      }
+     ],
+     "correct_answer": [
+      "A"
+     ],
+     "explanation": "A parenthetical phrase in parentheses is followed directly by the verb depends, with no added punctuation. The comma after the parenthesis is the strongest distractor because it separates subject from verb."
+    },
+    {
+     "position": 8,
+     "question": "Certain bacteria living in the roots of peas and beans take nitrogen gas from the air, which plants cannot use directly, and convert it into compounds the plants can absorb. In return, the plants supply the bacteria with sugars and a protected home inside root nodules. Farmers value the partnership because it reduces how much nitrogen fertilizer a field needs.\n\nAccording to the text, what do the bacteria receive from the plants they live in?",
+     "answer_type": "single",
+     "answers": [
+      {
+       "letter": "A",
+       "text": "Nitrogen gas converted from compounds in root nodules"
+      },
+      {
+       "letter": "B",
+       "text": "Protection from ladybirds and other insect predators"
+      },
+      {
+       "letter": "C",
+       "text": "Fertilizer that farmers apply to the field each season"
+      },
+      {
+       "letter": "D",
+       "text": "Sugars and a protected home inside root nodules"
+      }
+     ],
+     "correct_answer": [
+      "D"
+     ],
+     "explanation": "The passage says plants supply sugars and a protected home in root nodules, while usable nitrogen flows from bacteria to plants. Choice A reverses that exchange and misstates the form of nitrogen."
+    },
+    {
+     "position": 9,
+     "question": "A bakery's croissant sales rose from 160 per day to 200 per day after a price change in the opposite direction of what a manager expected, prompting a review of the data.\n\nBy what percentage did daily croissant sales increase?",
+     "answer_type": "single",
+     "answers": [
+      {
+       "letter": "A",
+       "text": "40 percent"
+      },
+      {
+       "letter": "B",
+       "text": "20 percent"
+      },
+      {
+       "letter": "C",
+       "text": "25 percent"
+      },
+      {
+       "letter": "D",
+       "text": "200 percent"
+      }
+     ],
+     "correct_answer": [
+      "C"
+     ],
+     "explanation": "Sales rose by 200 minus 160, or 40, and 40 divided by the original 160 is 0.25, or a 25 percent increase. Choice A mistakes the increase of 40 croissants for a percentage without dividing by the starting sales."
+    },
+    {
+     "position": 10,
+     "question": "A flock of geese landed on the pond just before sunset last night. Their honking echoed across the water as they settled for the evening. Soon the geese were drifting quietly, _____ heads tucked beneath their wings.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+     "answer_type": "single",
+     "answers": [
+      {
+       "letter": "A",
+       "text": "there"
+      },
+      {
+       "letter": "B",
+       "text": "they're"
+      },
+      {
+       "letter": "C",
+       "text": "them"
+      },
+      {
+       "letter": "D",
+       "text": "their"
+      }
+     ],
+     "correct_answer": [
+      "D"
+     ],
+     "explanation": "The possessive adjective 'their' modifies 'heads' and refers to the geese; 'they're' fails because 'they are heads tucked' does not make grammatical sense in this clause."
+    },
+    {
+     "position": 11,
+     "question": "Text 1: Mandatory voting raises turnout, and high turnout makes election results more representative. Countries that require citizens to vote, with small fines for abstaining, routinely see participation above ninety percent.\n\nText 2: Turnout purchased with fines is a hollow victory. A ballot cast to avoid a penalty expresses no judgment about the candidates, and a democracy should want engaged citizens, not merely counted ones.\n\nBased on the texts, what is the central disagreement between the authors?",
+     "answer_type": "single",
+     "answers": [
+      {
+       "letter": "A",
+       "text": "Whether fines for abstaining are usually large or small"
+      },
+      {
+       "letter": "B",
+       "text": "Whether other countries have ever tried mandatory voting"
+      },
+      {
+       "letter": "C",
+       "text": "Whether high turnout achieved by compulsion is a genuine democratic good"
+      },
+      {
+       "letter": "D",
+       "text": "Whether election results are announced on the same day as voting"
+      }
+     ],
+     "correct_answer": [
+      "C"
+     ],
+     "explanation": "Text 1 treats compelled high turnout as more representative while Text 2 calls it hollow, a direct clash over its value. Choice A focuses on fine size, which neither author treats as the heart of the issue."
+    },
+    {
+     "position": 12,
+     "question": "The survey uncovered a significant change in commuting habits. Within five years, the share of residents cycling to work had tripled, a shift large enough to prompt the city to redesign several major intersections.\n\nBased on the passage, 'significant' most nearly means",
+     "answer_type": "single",
+     "answers": [
+      {
+       "letter": "A",
+       "text": "important and large enough to matter"
+      },
+      {
+       "letter": "B",
+       "text": "difficult to measure"
+      },
+      {
+       "letter": "C",
+       "text": "temporary and minor"
+      },
+      {
+       "letter": "D",
+       "text": "welcomed by everyone"
+      }
+     ],
+     "correct_answer": [
+      "A"
+     ],
+     "explanation": "A tripling that prompted redesigns is important and large enough to matter. Minor fails because the change was substantial enough to alter city planning."
+    }
+   ],
+   "_source": {
+    "quiz_post_id": 780107,
+    "course_id": "780109",
+    "form_codes": [
+     "SAT-1087",
+     "SAT-1488",
+     "SAT-0865",
+     "SAT-1180",
+     "SAT-1378",
+     "SAT-1026",
+     "SAT-0551",
+     "SAT-0339",
+     "SAT-0411",
+     "SAT-0635",
+     "SAT-0145",
+     "SAT-0117"
+    ],
+    "built_at": "2026-11-12 13:51:32",
+    "attach_method": "program_meta"
+   }
   }
  }
 }
