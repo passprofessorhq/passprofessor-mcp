@@ -76,7 +76,7 @@ def resolve_slug(query):
 
 
 def program_summary(p):
-    return {
+    out = {
         "slug": p["slug"],
         "name": p["name"],
         "family": p["family"],
@@ -91,6 +91,9 @@ def program_summary(p):
         "product_url": utm(p["product_url"]),
         "provider": "PassProfessor",
     }
+    if p.get("description"):
+        out["description"] = p["description"]
+    return out
 
 
 mcp = FastMCP(
