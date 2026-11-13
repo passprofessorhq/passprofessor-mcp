@@ -9,7 +9,7 @@
       "transport": {
         "type": "stdio"
       },
-      "version": "1.0.1"
+      "version": "1.0.2"
     }
   ],
   "repository": {
@@ -17,6 +17,6 @@
     "url": "https://github.com/passprofessorhq/passprofessor-mcp"
   },
   "title": "PassProfessor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "websiteUrl": "https://passprofessor.com"
 }
