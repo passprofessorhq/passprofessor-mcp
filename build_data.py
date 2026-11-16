@@ -50,6 +50,10 @@ GLANCE_ANCHORS = {"format", "time limit", "time", "passing standard", "passing s
 #   its launch has not closed, so its sample set is excluded until closeout.
 EXCLUDED_SAMPLE_KEYS = {"certified-meeting-professional"}
 
+# Published fixed sample-set size (see the SAMPLING FENCE note in main()):
+# 12 at build time (2026-11-12); 20 since Kevin's 2026-11-15 sample-size raise.
+FIXED_SAMPLE_SIZE = 20
+
 def parse_page(page):
     content = page["content"] or ""
     tables = parse_tables(content)
@@ -172,14 +176,21 @@ def main():
         course = course_by_id.get(str(qz["course_id"]))
         key, method = resolve_key(qz, course)
         # SAMPLING FENCE (hard): serve ONLY the published fixed sample set —
-        # exactly 12 questions and a recorded form of exactly 12. Anything else
-        # (e.g. the free DMV full practice exams, 283-299 questions, which carry
-        # sample postmeta but are full practice sets) is excluded and logged.
+        # exactly FIXED_SAMPLE_SIZE questions and a recorded form of exactly
+        # FIXED_SAMPLE_SIZE. Anything else (e.g. the free DMV/ASVAB/citizenship
+        # full practice exams, 45-900 questions, which carry sample postmeta
+        # but are full practice sets) is excluded and logged.
+        # SIZE HISTORY: the fixed sample set was 12 questions at build time
+        # (2026-11-12); Kevin raised free samples to 20 questions on
+        # 2026-11-15 and the whole live fleet was swept to exactly 20, so the
+        # fence size follows the published fixed-set size: 20 (2026-11-16
+        # weekly refresh). The fence's rule — fixed set only, form must match
+        # — is unchanged.
         form = qz["form"] if isinstance(qz["form"], list) else []
-        if len(qz["questions"]) != 12 or len(form) != 12:
+        if len(qz["questions"]) != FIXED_SAMPLE_SIZE or len(form) != FIXED_SAMPLE_SIZE:
             excluded.append({"quiz_post_id": qz["quiz_post_id"], "program": qz["program"],
                              "questions": len(qz["questions"]), "form": len(form),
-                             "reason": "not a 12-question fixed sample set"})
+                             "reason": "not a fixed-size sample set"})
             continue
         if key in EXCLUDED_SAMPLE_KEYS or qz["program"] in EXCLUDED_SAMPLE_KEYS:
             excluded.append({"quiz_post_id": qz["quiz_post_id"], "program": qz["program"],

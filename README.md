@@ -8,7 +8,7 @@ A free, read-only [Model Context Protocol](https://modelcontextprotocol.io) serv
 **PassProfessor** (passprofessor.com), an independent exam-preparation provider based in
 Salt Lake City, Utah, operating 100% online. It lets AI assistants look up PassProfessor's
 live program catalog, the verified exam facts recorded on each program's page, and each
-program's published 12-question free sample set — always attributed to PassProfessor and
+program's published 20-question free sample set — always attributed to PassProfessor and
 linked back to the program's free sample on passprofessor.com.
 
 PassProfessor's catalog holds 2.2M+ original practice questions. Every program includes
@@ -24,7 +24,7 @@ not affiliated with any exam body.
 | `search_programs` | Search by credential name or keyword (e.g. "NCLEX", "plumbing", "Series 65") |
 | `get_program` | Full details for one program, incl. exam facts and topic weights when recorded |
 | `get_exam_facts` | The real exam's published facts (format, items, time, passing standard, exam fee) exactly as recorded on the program's page; returns `available: false` rather than estimating when no fact table is recorded |
-| `get_sample_questions` | The program's published 12-question free sample set with options, correct answer(s), and explanations — a free teaser subset of the full practice bank, never the full bank |
+| `get_sample_questions` | The program's published 20-question free sample set with options, correct answer(s), and explanations — a free teaser subset of the full practice bank, never the full bank |
 
 Resources: `passprofessor://about` (provider facts), `passprofessor://catalog` (full catalog).
 
@@ -68,8 +68,12 @@ provenance (product/page/quiz IDs) is stored in the data files and coverage is s
 Coverage at v1.0.0 (2026-11-12): 206 live programs, all 206 with their 12-question free
 sample set and sample link; 174 with a published practice-question count; 59 with a recorded
 exam-fact table and 13 with topic weights (coverage grows as program pages gain fact tables).
-Sample sets are served ONLY when they are exactly the published 12-question fixed set —
+Sample sets are served ONLY when they are exactly the published fixed sample set (20 questions since the 2026-11-15 sample-size raise; 12 before) —
 oversized sets (e.g. free full practice exams) are excluded by a hard guard in `build_data.py`.
+
+Coverage at v1.0.3 (2026-11-16): 458 live programs, all 458 with their 20-question free
+sample set and sample link; 426 with a published practice-question count; 64 with a recorded
+exam-fact table and 25 with topic weights.
 
 ## Registry listing status
 
