@@ -1,62 +1,244 @@
 {
- "products_total": 207,
- "programs_with_page": 184,
- "programs_with_facts": 59,
- "programs_with_weights": 13,
- "programs_with_practice_count": 175,
- "programs_with_sample": 207,
- "programs_with_sample_url": 207,
- "sample_sets_total": 207,
+ "products_total": 458,
+ "programs_with_page": 443,
+ "programs_with_facts": 64,
+ "programs_with_weights": 25,
+ "programs_with_practice_count": 426,
+ "programs_with_sample": 458,
+ "programs_with_sample_url": 458,
+ "sample_sets_total": 458,
  "free_program_sample_sets": 0,
  "free_program_keys": [],
  "excluded_sample_quizzes": [
   {
-   "quiz_post_id": 773776,
-   "program": "certified-meeting-professional",
-   "questions": 12,
-   "form": 12,
-   "reason": "program excluded (see EXCLUDED_SAMPLE_KEYS)"
-  },
-  {
-   "quiz_post_id": 404783,
+   "quiz_post_id": 403557,
    "program": "dmv",
-   "questions": 297,
+   "questions": 299,
    "form": 0,
-   "reason": "not a 12-question fixed sample set"
-  },
-  {
-   "quiz_post_id": 404483,
-   "program": "dmv",
-   "questions": 283,
-   "form": 0,
-   "reason": "not a 12-question fixed sample set"
-  },
-  {
-   "quiz_post_id": 404196,
-   "program": "dmv",
-   "questions": 290,
-   "form": 0,
-   "reason": "not a 12-question fixed sample set"
+   "reason": "not a fixed-size sample set"
   },
   {
    "quiz_post_id": 403901,
    "program": "dmv",
    "questions": 297,
    "form": 0,
-   "reason": "not a 12-question fixed sample set"
+   "reason": "not a fixed-size sample set"
   },
   {
-   "quiz_post_id": 403557,
+   "quiz_post_id": 404196,
    "program": "dmv",
-   "questions": 299,
+   "questions": 290,
    "form": 0,
-   "reason": "not a 12-question fixed sample set"
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 404483,
+   "program": "dmv",
+   "questions": 283,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 404783,
+   "program": "dmv",
+   "questions": 297,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 773776,
+   "program": "certified-meeting-professional",
+   "questions": 12,
+   "form": 12,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1000394,
+   "program": "asvab",
+   "questions": 335,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1000397,
+   "program": "asvab",
+   "questions": 335,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1000399,
+   "program": "asvab",
+   "questions": 335,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1000401,
+   "program": "asvab",
+   "questions": 245,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1000405,
+   "program": "asvab",
+   "questions": 335,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1000407,
+   "program": "asvab",
+   "questions": 335,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1000563,
+   "program": "asvab",
+   "questions": 215,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1000629,
+   "program": "asvab",
+   "questions": 215,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1000703,
+   "program": "asvab",
+   "questions": 335,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1000746,
+   "program": "asvab",
+   "questions": 315,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1191338,
+   "program": "us-citizenship-test",
+   "questions": 250,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1191344,
+   "program": "us-citizenship-test",
+   "questions": 250,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1191347,
+   "program": "us-citizenship-test",
+   "questions": 120,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1191349,
+   "program": "us-citizenship-test",
+   "questions": 85,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1191351,
+   "program": "us-citizenship-test",
+   "questions": 45,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1191356,
+   "program": "us-citizenship-test",
+   "questions": 15,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1191367,
+   "program": "us-citizenship-test",
+   "questions": 15,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1191369,
+   "program": "us-citizenship-test",
+   "questions": 20,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1193860,
+   "program": "civil-service-exam",
+   "questions": 900,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1193866,
+   "program": "civil-service-exam",
+   "questions": 225,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1193868,
+   "program": "civil-service-exam",
+   "questions": 180,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1193870,
+   "program": "civil-service-exam",
+   "questions": 225,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1193873,
+   "program": "civil-service-exam",
+   "questions": 135,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1193875,
+   "program": "civil-service-exam",
+   "questions": 135,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1194338,
+   "program": "dmv",
+   "questions": 285,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1195404,
+   "program": "dmv",
+   "questions": 283,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
   }
  ],
  "attach_methods": {
-  "program_meta": 79,
-  "course_core": 127,
+  "course_core": 134,
+  "program_meta": 323,
   "title_match": 1
  },
- "surgical_update_2026_11_13": "Digital SAT program added via targeted read-only extract (it launched after the 2026-11-12 extract). practice_question_count set to the verified live bank count 50000 (post-load verification, rail_state.md 2026-11-12 22:44 MST); the program page copy still reads 1,500, so a future full re-extract must confirm the page-derived count or re-apply this override. description field on the sat record carries the Kevin-approved claim (2026-11-13); build_data.py does not emit description \u2014 re-apply after a full refresh until it does."
+ "refresh_note_2026_11_16": "Full weekly re-extract 2026-11-16. Sampling fence size follows the published fixed sample set: 20 questions since Kevin's 2026-11-15 sample-size raise (was 12 at build time 2026-11-12); fence rule unchanged (fixed set only, recorded form must match size; free DMV/ASVAB/citizenship/civil-service full practice exams excluded). Digital SAT practice_question_count is now page-derived (program page reads 50,000). The sat record's description field carries the Kevin-approved claim (2026-11-13); build_data.py does not emit description \u2014 re-applied after this build."
 }
