@@ -1,12 +1,12 @@
 {
- "products_total": 458,
- "programs_with_page": 443,
- "programs_with_facts": 64,
- "programs_with_weights": 25,
- "programs_with_practice_count": 426,
- "programs_with_sample": 458,
- "programs_with_sample_url": 458,
- "sample_sets_total": 458,
+ "products_total": 1267,
+ "programs_with_page": 1242,
+ "programs_with_facts": 131,
+ "programs_with_weights": 40,
+ "programs_with_practice_count": 1203,
+ "programs_with_sample": 1255,
+ "programs_with_sample_url": 1256,
+ "sample_sets_total": 1255,
  "free_program_sample_sets": 0,
  "free_program_keys": [],
  "excluded_sample_quizzes": [
@@ -233,12 +233,397 @@
    "questions": 283,
    "form": 0,
    "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1195713,
+   "program": "dmv",
+   "questions": 283,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1196032,
+   "program": "dmv",
+   "questions": 297,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1196335,
+   "program": "dmv",
+   "questions": 290,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1197513,
+   "program": "dmv",
+   "questions": 288,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1197829,
+   "program": "dmv",
+   "questions": 300,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1201020,
+   "program": "usps-exam",
+   "questions": 900,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1201022,
+   "program": "usps-exam",
+   "questions": 300,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1201024,
+   "program": "usps-exam",
+   "questions": 225,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1201026,
+   "program": "usps-exam",
+   "questions": 150,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1201031,
+   "program": "usps-exam",
+   "questions": 125,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1201034,
+   "program": "usps-exam",
+   "questions": 100,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1214422,
+   "program": "cdl",
+   "questions": 368,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1214425,
+   "program": "cdl",
+   "questions": 145,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1214427,
+   "program": "cdl",
+   "questions": 125,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1214429,
+   "program": "cdl",
+   "questions": 175,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1214431,
+   "program": "cdl",
+   "questions": 77,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1214433,
+   "program": "cdl",
+   "questions": 91,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1214435,
+   "program": "cdl",
+   "questions": 101,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1214437,
+   "program": "cdl",
+   "questions": 122,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1215958,
+   "program": "hiset",
+   "questions": 150,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1215962,
+   "program": "hiset",
+   "questions": 150,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1215965,
+   "program": "hiset",
+   "questions": 149,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1215968,
+   "program": "hiset",
+   "questions": 146,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1215970,
+   "program": "hiset",
+   "questions": 150,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1217497,
+   "program": "accuplacer",
+   "questions": 500,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1217500,
+   "program": "accuplacer",
+   "questions": 500,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1217503,
+   "program": "accuplacer",
+   "questions": 400,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1217506,
+   "program": "accuplacer",
+   "questions": 550,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1217515,
+   "program": "accuplacer",
+   "questions": 550,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1217615,
+   "program": "ged",
+   "questions": 299,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1217625,
+   "program": "ged",
+   "questions": 300,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1217630,
+   "program": "ged",
+   "questions": 299,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1217636,
+   "program": "ged",
+   "questions": 289,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1217879,
+   "program": "food-handler-core",
+   "questions": 200,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1219612,
+   "program": "food-handler-core-es",
+   "questions": 200,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1219663,
+   "program": "food-handler-alaska",
+   "questions": 40,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1221278,
+   "program": "food-handler-texas",
+   "questions": 40,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1221326,
+   "program": "food-handler-washington",
+   "questions": 40,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1221373,
+   "program": "food-handler-oregon",
+   "questions": 40,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1222920,
+   "program": "food-handler-illinois",
+   "questions": 40,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1222979,
+   "program": "food-handler-utah",
+   "questions": 40,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1224535,
+   "program": "food-handler-florida",
+   "questions": 40,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1224591,
+   "program": "food-handler-new-mexico",
+   "questions": 40,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1224600,
+   "program": "food-handler-california",
+   "questions": 40,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1224664,
+   "program": "food-handler-maricopa-az",
+   "questions": 40,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1224714,
+   "program": "food-handler-pima-az",
+   "questions": 40,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1224762,
+   "program": "food-handler-yuma-az",
+   "questions": 40,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1226317,
+   "program": "food-handler-clark-nv",
+   "questions": 40,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1226370,
+   "program": "food-handler-tulsa-ok",
+   "questions": 40,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1228044,
+   "program": "food-handler-san-diego-ca",
+   "questions": 40,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1228094,
+   "program": "food-handler-bernalillo-nm",
+   "questions": 40,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1229657,
+   "program": "food-handler-coconino-az",
+   "questions": 40,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1229664,
+   "program": "food-handler-riverside-ca",
+   "questions": 40,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1229670,
+   "program": "food-handler-san-bernardino-ca",
+   "questions": 40,
+   "form": 0,
+   "reason": "not a fixed-size sample set"
+  },
+  {
+   "quiz_post_id": 1356698,
+   "program": "nys-entry-level-law-enforcement-officer",
+   "questions": 12,
+   "form": 12,
+   "reason": "not a fixed-size sample set"
   }
  ],
  "attach_methods": {
-  "course_core": 134,
-  "program_meta": 323,
-  "title_match": 1
+  "course_core": 136,
+  "program_meta": 1114,
+  "title_match": 5
  },
- "refresh_note_2026_11_16": "Full weekly re-extract 2026-11-16. Sampling fence size follows the published fixed sample set: 20 questions since Kevin's 2026-11-15 sample-size raise (was 12 at build time 2026-11-12); fence rule unchanged (fixed set only, recorded form must match size; free DMV/ASVAB/citizenship/civil-service full practice exams excluded). Digital SAT practice_question_count is now page-derived (program page reads 50,000). The sat record's description field carries the Kevin-approved claim (2026-11-13); build_data.py does not emit description \u2014 re-applied after this build."
+ "refresh_note_2026_11_23": "Full weekly re-extract 2026-11-23 (Kevin-approved run of the standard WP Engine tools; extract probes identical to probes_2026-11-16, outputs written to the site-dir mcp_extract_out/ and deleted after download). Live at extract time: 1,267 published products, 1,267 courses, 8,463 published pages, 1,342 sample-meta quizzes. Rebuild: 1,267 programs; 1,255 with sample + sample URL attached (12 products have no qualifying sample set yet \u2014 several are launches parked in repair; the server reports their samples as unavailable, nothing invented); 1,203 with practice count; 131 with facts; 40 with weights; 87 quizzes excluded by the sampling fence, all as not-a-fixed-size-sample-set (free full practice exams etc.). Sampling fence UNCHANGED (FIXED_SAMPLE_SIZE=20, fixed set only, recorded form must match size). One parser robustness fix in build_data.py parse_page: prose commas before 'practice questions' (e.g. 'the curriculum, practice questions, and mock exams') produced a digit-less capture that crashed int() on 4 pages; the count search now takes the first digit-bearing match \u2014 identical output for every page that built before. Digital SAT practice_question_count remains page-derived (program page reads 50,000); the sat record's description field carries the Kevin-approved claim (2026-11-13); build_data.py does not emit description \u2014 re-applied after this build."
 }
