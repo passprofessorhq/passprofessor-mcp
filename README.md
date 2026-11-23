@@ -75,6 +75,10 @@ Coverage at v1.0.3 (2026-11-16): 458 live programs, all 458 with their 20-questi
 sample set and sample link; 426 with a published practice-question count; 64 with a recorded
 exam-fact table and 25 with topic weights.
 
+Coverage at v1.0.4 (2026-11-23): 1,267 live programs, 1,255 with their 20-question free
+sample set and sample link; 1,203 with a published practice-question count; 131 with a
+recorded exam-fact table and 40 with topic weights.
+
 ## Registry listing status
 
 Prepared for the official MCP Registry as `io.github.passprofessorhq/passprofessor`

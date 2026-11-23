@@ -85,13 +85,19 @@ def parse_page(page):
                 weights = w
     text = strip_tags(content)
     count = None
-    m = re.search(r"([\d,]+)\s+original practice questions", text)
-    if m:
-        count = int(m.group(1).replace(",", ""))
-    if count is None:
-        m = re.search(r"([\d,]+)\s+practice questions", text)
-        if m:
-            count = int(m.group(1).replace(",", ""))
+    # First DIGIT-BEARING match wins. (2026-11-23 refresh fix: ordinary prose
+    # like "the curriculum, practice questions, and mock exams" makes the
+    # capture group a bare comma with no digits, which crashed int(); such
+    # comma-only matches are skipped. Behavior is identical for every page
+    # whose first match carries digits — i.e. every page built before today.)
+    for pat in (r"([\d,]+)\s+original practice questions", r"([\d,]+)\s+practice questions"):
+        for m in re.finditer(pat, text):
+            digits = m.group(1).replace(",", "")
+            if digits:
+                count = int(digits)
+                break
+        if count is not None:
+            break
     hrefs = re.findall(r'href="([^"]+)"', content)
     sample_url = None
     for h in hrefs:
